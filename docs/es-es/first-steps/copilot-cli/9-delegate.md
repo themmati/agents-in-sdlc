@@ -22,7 +22,7 @@ En esta lección:
 Ejecuta `/delegate` y entrega la siguiente tarea:
 
 ```plaintext
-Delegate this: add a shareable mission report to the space quiz. At the end of a run, generate a compact summary card with the score, a rank title based on the percentage, and the slowest question. Add a Copy result button that puts a short plain-text version on the clipboard. Keep it in the single index.html with no dependencies, keep it keyboard accessible, and report back with what changed.
+Delega esta tarea: añade al cuestionario espacial un informe de misión que se pueda compartir. Al final de una partida, genera una tarjeta resumen compacta con la puntuación, un título de rango basado en el porcentaje y la pregunta que se respondió más despacio. Añade un botón Copy result que copie al portapapeles una versión breve en texto sin formato. Mantén todo en el único archivo index.html, sin dependencias y accesible con el teclado. Después, informa de los cambios.
 ```
 
 1. Sigue trabajando en la sesión principal mientras se ejecuta la tarea delegada.

@@ -83,7 +83,7 @@ Como se indicó antes, Copilot CLI invoca automáticamente las habilidades. Como
 1. Pídele a Copilot que cree una PR con el siguiente prompt:
 
     ```
-    Can you please create a pull request for me!
+    ¡Crea una solicitud de cambios!
     ```
 
 2. Copilot confirmará la solicitud. Al cabo de unos instantes, verás que Copilot indica que está utilizando la habilidad **make-contribution**.
@@ -115,7 +115,7 @@ Las habilidades son perfectas para tareas concretas, pero para operaciones más 
 - [Repositorio de Agent Skills][agent-skills-repo]
 - [Habilidades de agente en awesome-copilot][awesome-copilot-skills]
 
-[previous-lesson]: ../4-mcp/
-[next-lesson]: ../6-custom-agents/
+[previous-lesson]: ../4-custom-instructions/
+[next-lesson]: ../6-mcp-playwright/
 [about-agent-skills]: https://docs.github.com/copilot/concepts/agents/about-agent-skills
 [awesome-copilot-skills]: https://github.com/github/awesome-copilot/tree/main/skills

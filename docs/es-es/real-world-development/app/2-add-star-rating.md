@@ -36,7 +36,7 @@ Vamos a iniciar una sesión nueva para comenzar a explorar el proyecto e impleme
 4. Elige **new working tree** y el modo **Interactive** debajo del cuadro de indicaciones. Utiliza la indicación siguiente para solicitar el cambio:
 
     ```plaintext
-    Show each game's starRating out of 5 in the game cards on the list page. If the rating is null, show "No rating yet". Keep the card layout as it is, add tests, and run the relevant checks.
+    Muestra la valoración starRating sobre 5 de cada juego en las tarjetas de la página de lista. Si la valoración es null, muestra "No rating yet". Mantén el diseño actual de las tarjetas, añade pruebas y ejecuta las comprobaciones pertinentes.
     ```
 
 5. Pulsa <kbd>Enter</kbd> para enviar la indicación a Copilot.
@@ -80,7 +80,7 @@ Por supuesto, no basta con leer el código y dar por hecho que funciona. Vamos a
 1. Utiliza la siguiente indicación para pedir a Copilot que inicie la aplicación y abra la página en el lienzo de navegador:
 
     ```plaintext
-    Start the app and open it in the browser canvas.
+    Inicia la aplicación y ábrela en el lienzo del navegador.
     ```
 
 2. En unos instantes, la aplicación se iniciará y se abrirá una ventana de navegador dentro de la aplicación Copilot.
@@ -88,7 +88,7 @@ Por supuesto, no basta con leer el código y dar por hecho que funciona. Vamos a
 4. Cuando termines, pide a Copilot que detenga el servidor de desarrollo que ha iniciado para esta sesión con la indicación siguiente:
 
     ```plaintext
-    Stop the dev server and close the browser canvas.
+    Detén el servidor de desarrollo y cierra el lienzo del navegador.
     ```
 
 ## Abrir y combinar tu primera solicitud de incorporación de cambios

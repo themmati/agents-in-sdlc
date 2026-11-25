@@ -19,7 +19,7 @@ En esta lección:
 Envía el siguiente prompt:
 
 ```plaintext
-Initialize this folder as a Git repository, create an initial commit, and create a new public GitHub repository named space-quiz in my account. Push the current branch and set it as the default branch.
+Inicializa esta carpeta como repositorio de Git, crea la primera confirmación y un nuevo repositorio público de GitHub llamado space-quiz en mi cuenta. Envía la rama actual y configúrala como rama predeterminada.
 ```
 
 Aprueba cada acción de Git y GitHub cuando el agente lo solicite.

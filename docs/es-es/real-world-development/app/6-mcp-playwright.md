@@ -53,7 +53,7 @@ La incidencia y tus decisiones de planificación ya están en el contexto. Deté
 1. Utiliza la indicación siguiente para pedir a Copilot que valide la nueva funcionalidad:
 
     ```plaintext
-    Start the app and use Playwright MCP to check filtering against the issue and our plan. Tell me what works and what doesn't, without making changes. Stop the server you started when you're done.
+    Inicia la aplicación y utiliza Playwright MCP para comprobar el filtrado según la incidencia y el plan. Indica qué funciona y qué no, sin hacer cambios. Detén el servidor que hayas iniciado cuando termines.
     ```
 
   > [!NOTE]

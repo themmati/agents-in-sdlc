@@ -21,7 +21,7 @@ En esta lección:
 3. Envía el siguiente prompt y deja que el agente investigue sin editar nada:
 
    ```plaintext
-   Plan how to implement this issue. Investigate the existing quiz, list the files you would change, call out risks to accessibility and the single-file constraint, and stop before making any edits.
+   Planifica cómo implementar esta incidencia. Investiga el cuestionario existente, enumera los archivos que cambiarías, señala los riesgos de accesibilidad y de mantener un único archivo, y detente antes de editar.
    ```
 
 4. Lee el plan, señala cualquier carencia y apruébalo.

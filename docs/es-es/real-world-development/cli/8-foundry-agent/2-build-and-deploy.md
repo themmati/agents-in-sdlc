@@ -35,11 +35,11 @@ Ahora pedirás a la habilidad Microsoft Foundry que genere la estructura del age
 1. Introduce el siguiente prompt en Copilot CLI:
 
     ```text
-    Use the Microsoft Foundry Skill to scaffold a hosted Backer Concierge in this existing repository using the project and model deployment we selected. Start from the Python 3.13 Basic hosted-agent sample, use Microsoft Agent Framework with the Responses API and code deployment, and keep the agent in agent/backer-concierge. Keep one azure.yaml at the repository root with a service using host: azure.ai.agent.
+    Usa la habilidad Microsoft Foundry para crear la estructura inicial de Backer Concierge hospedado en este repositorio existente, utilizando el proyecto y la implementación del modelo que seleccionamos. Parte del ejemplo Basic hosted-agent de Python 3.13, utiliza Microsoft Agent Framework con Responses API y la implementación de código, y guarda el agente en agent/backer-concierge. Mantén un único azure.yaml en la raíz del repositorio con un servicio que utilice host: azure.ai.agent.
 
-    Ground every answer in db/catalog.json. Never invent games, publishers, ratings, funding totals, backer counts, pledge tiers, prices, player counts, play times, or release dates. Ask one short clarifying question when a request is vague and preserve conversation context. Ensure the catalog is copied into the deployable service during preparation so the deployed agent never depends on a file outside its service directory. Add focused tests for catalog loading and grounding behavior.
+    Basa todas las respuestas en db/catalog.json. Nunca inventes juegos, editores, valoraciones, importes recaudados, número de patrocinadores, niveles de aportación, precios, número de jugadores, duración de las partidas ni fechas de lanzamiento. Si una solicitud no está clara, haz una pregunta breve para aclararla y conserva el contexto de la conversación. Asegúrate de que el catálogo se copie al servicio que se va a implementar durante la preparación, para que el agente implementado no dependa de archivos ajenos a su directorio. Añade pruebas específicas para la carga del catálogo y el comportamiento de fundamentación.
 
-    Scaffold and test locally, but do not deploy the hosted agent yet. Stop and ask me to authenticate if needed.
+    Crea la estructura y prueba el agente en local, pero no lo implementes aún. Detente y pídeme que me autentique si es necesario.
     ```
 
 2. Sigue la sesión para responder a las preguntas sobre el proyecto de Foundry, el despliegue del modelo, el nombre del agente o el entorno.
@@ -79,7 +79,7 @@ Ahora pedirás a la habilidad Microsoft Foundry que genere la estructura del age
 4. Pide a Copilot que ejecute las pruebas específicas e inspeccione la configuración generada antes de iniciar el servicio:
 
     ```text
-    Run the focused Backer Concierge tests. Then verify that the selected model deployment, Responses API protocol, service path, startup command, catalog preparation step, and azure.ai.agent host configuration are consistent. Fix only problems in this hosted-agent project and rerun the failed checks.
+    Ejecuta las pruebas específicas de Backer Concierge. Después, comprueba que la implementación del modelo seleccionado, el protocolo Responses API, la ruta del servicio, el comando de inicio, el paso de preparación del catálogo y la configuración de host azure.ai.agent sean coherentes. Corrige solo los problemas de este proyecto de agente hospedado y vuelve a ejecutar las comprobaciones fallidas.
     ```
 
     No continúes hasta que las pruebas específicas se superen.
@@ -102,7 +102,7 @@ Ahora comprobarás, mediante la API Responses local del agente, que sus respuest
 3. Vuelve a Copilot CLI en el primer terminal e introduce:
 
     ```text
-    Test the running Backer Concierge through its Responses API. Run each acceptance prompt below, preserve the response ID for the two-turn conversation test, and compare every response with the expected behavior. Show a concise pass or fail table and the evidence for any failure. Do not change code yet.
+    Prueba Backer Concierge en ejecución mediante Responses API. Ejecuta cada indicación de aceptación siguiente, conserva el ID de respuesta para la prueba de conversación de dos turnos y compara cada respuesta con el comportamiento esperado. Presenta una tabla breve con el resultado y las pruebas de cada fallo. No cambies el código todavía.
 
     1. "I love puzzle games about tracking down bugs. What should I back?" Expected: only real catalog titles with correct details.
     2. "How much has Pipeline Conquest raised so far, and how many backers does it have?" Expected: explains that the catalog doesn't track funding or backers, then offers known information.
@@ -125,7 +125,7 @@ Una vez superadas las pruebas de aceptación locales, puedes desplegar el agente
 2. Vuelve a Copilot CLI e introduce el siguiente prompt. Revisa los recursos propuestos y el coste estimado antes de aprobar el despliegue:
 
     ```text
-    Continue with the Microsoft Foundry Skill workflow. Review the hosted agent for deployment readiness, then deploy it to Microsoft Foundry, show the deployment status and playground link, and invoke it remotely with: "I love puzzle games about tracking down bugs. What should I back?"
+    Continúa con el flujo de trabajo de la habilidad Microsoft Foundry. Comprueba que el agente hospedado está listo para implementarse, impleméntalo en Microsoft Foundry, muestra el estado de la implementación y el enlace al playground y, después, invócalo de forma remota con esta pregunta: «Me encantan los juegos de puzles en los que hay que encontrar errores. ¿Qué juego debería apoyar?».
     ```
 
 3. Si se te pide que selecciones el origen de una batería de evaluación, elige **No, set it up later**.

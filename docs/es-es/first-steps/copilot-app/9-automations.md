@@ -25,7 +25,7 @@ Las automatizaciones ejecutan el mismo prompt según una programación, cada una
 3. Introduce el siguiente prompt:
 
    ```plaintext
-   Review the latest GitHub issues created and still open in the last week, and provide a summary table ranked by severity and priority.
+   Revisa las incidencias de GitHub más recientes, creadas y todavía abiertas durante la última semana, y presenta una tabla resumen ordenada por gravedad y prioridad.
    ```
 
 4. Establece el modo de sesión en **Autopilot**.

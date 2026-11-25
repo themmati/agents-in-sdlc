@@ -42,7 +42,7 @@ El kit de herramientas integra en VS Code la exploración de modelos, la impleme
 5. Abre un nuevo chat de Copilot en modo **Agent** y pide:
 
    ```text
-   Show me the open issue about a Backer Concierge assistant and summarize its acceptance criteria.
+   Muéstrame la incidencia abierta sobre el asistente Backer Concierge y resume sus criterios de aceptación.
    ```
 
 6. Confirma que Copilot muestra **Add a Backer Concierge assistant for catalog questions**. Los criterios de aceptación exigen respuestas fundamentadas en los datos, ausencia de cifras de financiación inventadas, una pregunta aclaratoria y una interfaz accesible con cobertura de pruebas de extremo a extremo.
@@ -102,7 +102,7 @@ Model Playground no dispone del archivo del catálogo. Un subconjunto reducido d
 1. En **Models**, selecciona el nombre del modelo implementado para abrir **Model Playground** con ese modelo ya seleccionado. Pega el siguiente prompt del sistema:
 
    ```text
-   You're the Backer Concierge for Tailspin Toys. Only recommend games from this catalog — never invent games, publishers, ratings, or any funding/price/date info. If a request is vague, ask one short question first.
+   Eres Backer Concierge de Tailspin Toys. Recomienda únicamente juegos de este catálogo; nunca inventes juegos, editores, valoraciones ni datos de financiación, precios o fechas. Si una solicitud no está clara, haz primero una pregunta breve.
 
    CATALOG
 

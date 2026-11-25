@@ -68,7 +68,7 @@ Antes de empezar, confirma que la PR de valoraciones por estrellas está combina
 La planificación te permite revisar el enfoque antes de que Copilot escriba código. Como has iniciado la sesión desde la incidencia, Copilot ya tiene la solicitud de la funcionalidad como contexto. Envía:
 
 ```plaintext
-Build this feature.
+Implementa esta funcionalidad.
 ```
 
 Responde a las preguntas de Copilot y compara el plan con los criterios de aceptación de la incidencia. Comprueba que incluye el filtrado por categoría y editor, controles accesibles, cambios de acceso a datos y pruebas. Aclara cualquier comportamiento poco definido, como la combinación de varias categorías o qué ocurre cuando ningún juego coincide.
@@ -100,7 +100,7 @@ El código parece correcto, pero ¿se ejecuta? Iniciemos la aplicación como ant
 1. Utiliza la indicación siguiente para pedir a Copilot que inicie la aplicación y abra la página en el lienzo de navegador:
 
     ```plaintext
-    Start the app and open it in the browser canvas.
+    Inicia la aplicación y ábrela en el lienzo del navegador.
     ```
 
 2. En unos instantes, la aplicación se iniciará y se abrirá una ventana de navegador dentro de la aplicación Copilot.
@@ -108,7 +108,7 @@ El código parece correcto, pero ¿se ejecuta? Iniciemos la aplicación como ant
 4. Cuando termines, pide a Copilot que detenga el servidor de desarrollo que ha iniciado para esta sesión con la indicación siguiente:
 
     ```plaintext
-    Stop the dev server and close the browser canvas.
+    Detén el servidor de desarrollo y cierra el lienzo del navegador.
     ```
 
 ## Resumen y pasos siguientes
